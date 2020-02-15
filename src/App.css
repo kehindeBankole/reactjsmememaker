@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+img.mos{
+  opacity: 0.7;
+  position: relative;
+}
+img.mos::after{
+  content: "";
+  position: absolute;
+  border:2px solid red;
+  width:100px;
+  height:100px;
+  top:50%;
+  right:80;
+}
